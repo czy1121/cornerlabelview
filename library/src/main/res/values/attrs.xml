@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CornerLabelView">
+        <attr name="clvPaddingTop" format="dimension"/>
+        <attr name="clvPaddingCenter" format="dimension"/>
+        <attr name="clvPaddingBottom" format="dimension"/>
+
+        <attr name="clvText1" format="string"/>
+        <attr name="clvText1Color" format="color"/>
+        <attr name="clvText1Height" format="dimension"/>
+
+        <attr name="clvText2" format="string"/>
+        <attr name="clvText2Color" format="color"/>
+        <attr name="clvText2Height" format="dimension"/>
+
+        <attr name="clvFillColor" format="color"/>
+        <attr name="clvFlags" format="integer">
+            <flag name="none" value="0"/>
+            <flag name="right" value="1"/>
+            <flag name="bottom" value="2"/>
+            <flag name="triangle" value="4"/>
+        </attr>
+    </declare-styleable>
+    <style name="CornerMarkView">
+    </style>
+
+    <style name="CornerMarkView.Default">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="clvPaddingTop">10dp</item>
+        <item name="clvPaddingCenter">3dp</item>
+        <item name="clvPaddingBottom">3dp</item>
+    </style>
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:background="#CCC">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/photo300x300"/>
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    app:clvFillColor="#9C27B0"
+                    app:clvFlags="triangle"
+                    app:clvPaddingCenter="10dp"
+                    app:clvText1="五四三二"
+                    app:clvText2="1234"
+                    app:clvText2Color="#66ffffff"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    android:layout_gravity="right"
+                    app:clvFillColor="#F44336"
+                    app:clvFlags="triangle|right"
+                    app:clvPaddingCenter="10dp"
+                    app:clvText1="12345678"
+                    app:clvText2="1234"
+                    app:clvText2Color="#66ffffff"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    android:layout_gravity="bottom"
+                    app:clvFillColor="#3F51B5"
+                    app:clvFlags="triangle|bottom"
+                    app:clvPaddingCenter="10dp"
+                    app:clvText1="五四三二"
+                    app:clvText2="1234"
+                    app:clvText2Color="#66ffffff"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    android:layout_gravity="bottom|right"
+                    app:clvFillColor="#009688"
+                    app:clvFlags="triangle|right|bottom"
+                    app:clvPaddingCenter="10dp"
+                    app:clvText1="五四三二"
+                    app:clvText2="1234"
+                    app:clvText2Color="#66ffffff"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:background="#CCC">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/photo300x300"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    app:clvFillColor="#03A9F4"
+                    app:clvText1="iOS"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    android:layout_gravity="right"
+                    app:clvFillColor="#4CAF50"
+                    app:clvFlags="right"
+                    app:clvText1="Android"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    android:layout_gravity="bottom"
+                    app:clvFillColor="#CDDC39"
+                    app:clvFlags="bottom"
+                    app:clvText1="PHP"/>
+
+                <com.github.czy1121.cornerlabelview.CornerLabelView
+                    style="@style/CornerMarkView.Default"
+                    android:layout_gravity="bottom|right"
+                    app:clvFillColor="#795548"
+                    app:clvFlags="right|bottom"
+                    app:clvText1="五四三二"/>
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#CCC">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/photo300x300"/>
+            <com.github.czy1121.cornerlabelview.CornerLabelView
+                android:id="@+id/label"
+                style="@style/CornerMarkView.Default"
+                app:clvFillColor="#FFC107"
+                app:clvText1="123456"
+                app:clvText2="008"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/btn_color"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="color"/>
+            <TextView
+                android:id="@+id/btn_left"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="left"/>
+            <TextView
+                android:id="@+id/btn_top"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="top"/>
+            <TextView
+                android:id="@+id/btn_triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="triangle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_text1_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="text1-"/>
+
+            <TextView
+                android:id="@+id/btn_text1_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="text1+"/>
+
+            <TextView
+                android:id="@+id/btn_height1_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="height1-"/>
+
+            <TextView
+                android:id="@+id/btn_height1_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="height1+"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_text2_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="text2-"/>
+
+            <TextView
+                android:id="@+id/btn_text2_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="text2+"/>
+
+            <TextView
+                android:id="@+id/btn_height2_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="height2-"/>
+
+            <TextView
+                android:id="@+id/btn_height2_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#DDD"
+                android:gravity="center"
+                android:text="height2+"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
