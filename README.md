@@ -1,5 +1,6 @@
 # cornerlabelview
 
+角标(corner label)
 
 ![screenshot_corner_label_view](screenshot_corner_label_view.png)
 
