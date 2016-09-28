@@ -21,10 +21,10 @@
             <flag name="triangle" value="4"/>
         </attr>
     </declare-styleable>
-    <style name="CornerMarkView">
+    <style name="CornerLabelView">
     </style>
 
-    <style name="CornerMarkView.Default">
+    <style name="CornerLabelView.Default">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
 

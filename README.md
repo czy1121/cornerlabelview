@@ -14,7 +14,7 @@ repositories {
     
 ``` groovy
 dependencies {
-    compile 'com.github.czy1121:cornerlabelview:1.0.1'
+    compile 'com.github.czy1121:cornerlabelview:1.0.2'
 }
 ```
     
@@ -24,7 +24,7 @@ dependencies {
 
 ``` xml
 <com.github.czy1121.cornerlabelview.CornerLabelView
-    style="@style/CornerMarkView.Default"
+    style="@style/CornerLabelView.Default"
     app:clvFillColor="#9C27B0"
     app:clvFlags="triangle"
     app:clvPaddingCenter="10dp"

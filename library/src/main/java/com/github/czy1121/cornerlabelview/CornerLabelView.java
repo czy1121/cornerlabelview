@@ -93,10 +93,10 @@ public class CornerLabelView extends View {
         mText2.init();
         mText2.reset();
 
-        ta.recycle();
-
         int fillColor = ta.getColor(R.styleable.CornerLabelView_clvFillColor, 0x66000000);
         int flags = ta.getInteger(R.styleable.CornerLabelView_clvFlags, 0);
+
+        ta.recycle();
 
         mIsLeft = (flags & 1) == 0;
         mIsTop = (flags & 2) == 0;
