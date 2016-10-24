@@ -1,6 +1,8 @@
 # cornerlabelview
 
-角标(corner label)
+[![](https://jitpack.io/v/czy1121/cornerlabelview.svg)](https://jitpack.io/#czy1121/cornerlabelview)
+
+角标(corner label) 
 
 ![screenshot_corner_label_view](screenshot_corner_label_view.png)
 
