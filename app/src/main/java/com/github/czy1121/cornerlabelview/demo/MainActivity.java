@@ -6,7 +6,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.github.czy1121.cornerlabelview.CornerLabelView;
+import com.github.czy1121.view.CornerLabelView;
 
 import java.util.Random;
 

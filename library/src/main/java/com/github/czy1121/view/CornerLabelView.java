@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.czy1121.cornerlabelview;
+package com.github.czy1121.view;
 
 
 import android.annotation.TargetApi;
@@ -34,6 +34,8 @@ import android.support.v4.content.ContextCompat;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.github.czy1121.cornerlabelview.R;
 
 
 public class CornerLabelView extends View {

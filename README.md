@@ -23,7 +23,7 @@ dependencies {
 **XML**
 
 ``` xml
-<com.github.czy1121.cornerlabelview.CornerLabelView
+<com.github.czy1121.view.CornerLabelView
     style="@style/CornerLabelView.Default"
     app:clvFillColor="#9C27B0"
     app:clvFlags="triangle"

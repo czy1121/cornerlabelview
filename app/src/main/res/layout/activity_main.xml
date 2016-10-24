@@ -24,7 +24,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@mipmap/photo300x300"/>
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     app:clvFillColor="#9C27B0"
                     app:clvFlags="triangle"
@@ -33,7 +33,7 @@
                     app:clvText2="1234"
                     app:clvText2Color="#66ffffff"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     android:layout_gravity="right"
                     app:clvFillColor="#F44336"
@@ -43,7 +43,7 @@
                     app:clvText2="1234"
                     app:clvText2Color="#66ffffff"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     android:layout_gravity="bottom"
                     app:clvFillColor="#3F51B5"
@@ -53,7 +53,7 @@
                     app:clvText2="1234"
                     app:clvText2Color="#66ffffff"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     android:layout_gravity="bottom|right"
                     app:clvFillColor="#009688"
@@ -76,26 +76,26 @@
                     android:layout_height="match_parent"
                     android:src="@mipmap/photo300x300"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     app:clvFillColor="#03A9F4"
                     app:clvText1="iOS"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     android:layout_gravity="right"
                     app:clvFillColor="#4CAF50"
                     app:clvFlags="right"
                     app:clvText1="Android"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     android:layout_gravity="bottom"
                     app:clvFillColor="#CDDC39"
                     app:clvFlags="bottom"
                     app:clvText1="PHP"/>
 
-                <com.github.czy1121.cornerlabelview.CornerLabelView
+                <com.github.czy1121.view.CornerLabelView
                     style="@style/CornerLabelView.Default"
                     android:layout_gravity="bottom|right"
                     app:clvFillColor="#795548"
@@ -115,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@mipmap/photo300x300"/>
-            <com.github.czy1121.cornerlabelview.CornerLabelView
+            <com.github.czy1121.view.CornerLabelView
                 android:id="@+id/label"
                 style="@style/CornerLabelView.Default"
                 app:clvFillColor="#FFC107"
