@@ -14,7 +14,7 @@ repositories {
     
 ``` groovy
 dependencies {
-    compile 'com.github.czy1121:cornerlabelview:1.0.2'
+    compile 'com.github.czy1121:cornerlabelview:1.0.3'
 }
 ```
     
